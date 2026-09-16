@@ -238,7 +238,7 @@ Both `java -version` and `mvn -version` must show Java 21.
 
 1. Download and install Bob. Open Bob and confirm it launches without errors. Download link: https://bob.ibm.com/download 
 2. Sign in to IBM Bob with your IBM credentials
-3. Open the workshop repository folder in VS Code: **File → Open Folder** → select `COBOL2JAVA-Lab/`
+3. Open the workshop repository folder in IBM Bob IDE: **File → Open Folder** → select `COBOL2JAVA-Lab/`
 4. Confirm Bob is active — you should see the Bob icon or chat panel in the sidebar
 
 ---
