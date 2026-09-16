@@ -294,21 +294,12 @@ start the UI for me
 ```
 
 Bob will run the correct Maven command in the background and the Swing window will appear
-on your desktop. If you prefer to launch it yourself, use the command for your OS:
+on your desktop. If you prefer to launch it yourself, use the command:
 
-**macOS / Linux** — run in a terminal inside the `COBOL2JAVA/` directory:
+Run in a terminal inside the `COBOL2JAVA/` directory:
 ```bash
-mvn exec:java@gui -Dexec.cleanupDaemonThreads=false
+mvn exec:java@gui
 ```
-
-**Windows** — run in Command Prompt or PowerShell inside the `COBOL2JAVA\` directory:
-```cmd
-mvn exec:java@gui -Dexec.cleanupDaemonThreads=false
-```
-
-> **Note:** The `-Dexec.cleanupDaemonThreads=false` flag is required on all platforms.
-> Without it, Maven shuts down the JVM as soon as it finishes its lifecycle, closing the
-> Swing window immediately before you can interact with it.
 
 ### Deliverables
 - `FinancialCalculatorGUI.java` — Swing GUI using existing calculator classes
