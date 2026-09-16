@@ -12,8 +12,7 @@ Estimated setup time: **15–30 minutes**
 |------|---------|--------------|
 | OpenJDK | 21 | Compiling and running the Java project |
 | Apache Maven | 3.6 or higher | Building the project, running tests, launching the app |
-| IBM Bob | Latest | The AI assistant used throughout the workshop |
-| VS Code | Any recent | Recommended IDE — Bob integrates directly |
+| IBM Bob IDE | Latest | The AI assistant IDE used throughout the workshop |
 
 ---
 
@@ -264,7 +263,7 @@ echo %JAVA_HOME%
 echo %MAVEN_HOME%
 ```
 
-Then confirm in VS Code:
+Then confirm in Bob IDE:
 - [ ] The `COBOL2JAVA-Lab/` folder is open
 - [ ] You can see `COBCALC.cbl`, `COBLOAN.cbl`, `COBVALU.cbl` in the file explorer
 - [ ] IBM Bob chat panel is visible and responsive
