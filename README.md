@@ -11,7 +11,7 @@ A hands-on lab that shows how **IBM Bob** understands decades-old mainframe COBO
 ## What is in this repository
 
 ```
-COBOL2JAVA-Lab/
+bob-lab-cobol2java/
 ├── COBCALC.cbl              ← Main COBOL controller program
 ├── COBLOAN.cbl              ← Loan payment calculator subprogram
 ├── COBVALU.cbl              ← Present value calculator subprogram
@@ -20,7 +20,7 @@ COBOL2JAVA-Lab/
 └── README.md                ← This file
 ```
 
-The `COBOL2JAVA/` project folder is created by Bob during the workshop. It does not exist yet.
+The `bob-lab-cobol2java/` project folder is created by Bob during the workshop. It does not exist yet.
 
 ---
 
@@ -101,7 +101,7 @@ COMPUTE PAYMENT =
 
 ## What the workshop produces
 
-By the end, Bob will have generated a complete Java project inside `COBOL2JAVA/`:
+By the end, Bob will have generated a complete Java project inside `bob-lab-cobol2java/`:
 
 | Step | What gets created |
 |------|-------------------|
