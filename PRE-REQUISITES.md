@@ -236,16 +236,18 @@ Both `java -version` and `mvn -version` must show Java 21.
 
 ## IBM Bob IDE
 
-1. Download and install Bob IDE. Open Bob and confirm it launches without errors. D
-  - Go to the download link: https://bob.ibm.com
+1. Downloading IBM Bob
+  - Go to the IBM Bob link: https://bob.ibm.com
   - Click on "Get Free Trial"
+    
   - Enter details and email id (this will serve as your IBM id)
-  - OR
+    OR
   - Sign up via Google or Github
+    
   - Verify email
   - Wait for your trail to set up. Wait for an email for successful activation.
-3. Download and then sign in to IBM Bob with your IBM credentials
-4. Download this github repo - `bob-lab-cobol2java`
+2. Download and then sign in to IBM Bob with your IBM credentials
+3. Download this github repo - `bob-lab-cobol2java`
 4. Open the workshop repository folder in IBM Bob IDE: **File → Open Folder** → select `bob-lab-cobol2java`
 5. Confirm Bob is active — you should see the Bob icon or chat panel in the sidebar
 
@@ -271,7 +273,7 @@ echo %MAVEN_HOME%
 ```
 
 Then confirm in Bob IDE:
-- [ ] The `COBOL2JAVA-Lab/` folder is open
+- [ ] The `bob-lab-cobol2java/` folder is open
 - [ ] You can see `COBCALC.cbl`, `COBLOAN.cbl`, `COBVALU.cbl` in the file explorer
 - [ ] IBM Bob chat panel is visible and responsive
 
