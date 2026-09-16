@@ -124,8 +124,8 @@ If `mvn -version` shows a different Java version, re-run the `export JAVA_HOME=.
 2. Set the filters: **Version = 21**, **OS = Windows**, **Architecture = x64**, **Package Type = JDK**, **File Type = .msi**
 3. Download the `.msi` installer
 4. Run it — **right-click → Run as administrator** if prompted
-5. On the **Custom Setup** screen, confirm both of these are set to **"Will be installed"** (they are on by default):
-   - `Add to PATH`
+5. On the **Custom Setup** screen, confirm both of these are set to **"Will be installed"** :
+   - `Modify PATH`
    - `Set JAVA_HOME variable`
 6. Complete the installation
 
@@ -134,10 +134,11 @@ If `mvn -version` shows a different Java version, re-run the `export JAVA_HOME=.
 ### Step 2 — Install Apache Maven
 
 1. Go to: **https://maven.apache.org/download.cgi**
-2. Under **Files**, download the **Binary zip archive**: `apache-maven-3.x.x-bin.zip`
-3. Extract the zip to: `C:\Maven\apache-maven-3.x.x`
+2. Under **Downloads**, download the **Binary zip archive**: `apache-maven-3.x.x-bin.zip`
+3. Create a new folder named Maven in C drive and extract the zip to: `C:\Maven\apache-maven-3.x.x`
    > ⚠️ Do **not** extract to `C:\Program Files\` — that path contains a space which can cause Maven's startup script to fail. Use `C:\Maven\` instead.
 4. Set the `MAVEN_HOME` system variable:
+   - Copy path of apache-maven-3.x.x
    - Press **Win + S**, search for **"Edit the system environment variables"**, open it
    - Click **"Environment Variables…"**
    - Under **System variables** (or **User variables** if you lack admin rights), click **New**
