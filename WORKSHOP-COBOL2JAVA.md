@@ -38,7 +38,7 @@ Each step builds on the previous one and mirrors real-world modernization projec
 
 ## Before You Start
 
-> 📋 **Setup must be completed before this session.** See **[PRE-REQUISITES.md](PRE-REQUISITES.md)** for full installation instructions (Java 21, Maven, VS Code, IBM Bob) for macOS, Windows, and Linux.
+> 📋 **Setup must be completed before this session.** See **[PRE-REQUISITES.md](PRE-REQUISITES.md)** for full installation instructions (Java 21, Maven, IBM Bob) for macOS, Windows, and Linux.
 
 ### Quick verification — run this now
 
