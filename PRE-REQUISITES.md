@@ -243,7 +243,7 @@ Both `java -version` and `mvn -version` must show Java 21.
     
   - Enter details and email id (this will serve as your IBM id)
     OR
-  - Sign up via Google or Github
+  - Sign up via Google or Github or Corporate Email ID
     
   - Verify email
   - Wait for your trail to set up. Wait for an email for successful activation.
